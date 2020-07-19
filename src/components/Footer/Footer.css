@@ -1,0 +1,115 @@
+.end{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.end div:not(.email){
+  display: inline-block;
+  width: 200px;
+  height: auto;
+}
+
+.end div img{
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.quicklinks{
+  width: 200px;
+}
+
+.end p{
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+  color: #6D6D6D;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.end span{
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+  color: #B8B8B8;
+}
+
+.sav span:last-of-type{
+  margin-bottom: 30px;
+}
+
+#heading{
+  display: inline-block;
+  color: #091188;
+}
+
+.email span{
+  margin-top: 0px;
+}
+
+.email{
+  margin-top: 25px;
+  padding-top: 15px;
+}
+
+#addspan{
+  margin-top: 20px;
+}
+
+.contact #heading{
+  margin-top: 58px;
+}
+
+.email{
+  display: inline-block;
+  width: 100%;
+}
+
+.quicklinks span{
+  margin-bottom: 40px;
+}
+
+.quicklinks p:first-of-type{
+margin-bottom: 20px;
+}
+
+.quicklinks p:last-of-type{
+  margin-bottom: 15px;
+}
+
+.links img{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.links #heading{
+  margin-top: 0px;
+}
+
+.links div{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 400px){
+ .contact #heading, .email{
+   margin-top: 0px;
+ }
+ 
+ .links div{
+   margin-top: 10px;
+ }  
+ .quicklinks #heading{
+   margin-bottom: 10px;
+ }
+ .sav, .links, .contact, .quicklinks
+{
+  margin-top: 30px;
+}}

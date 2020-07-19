@@ -1,0 +1,88 @@
+
+.Middle8{
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 60px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+
+.lap{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text1{
+  margin-left: 150px;
+}
+
+@media(max-width:1250px){
+  .lap{
+    display: none;
+  }
+
+}
+
+.Middle8 span{
+  margin-top: 50px;
+  display: inline-block;
+  font-size: 28px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+  color: #091188;
+}
+
+.Middle8 span:last-child{
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+  color: #6D6D6D;
+  margin-top: 0px;
+}
+.Middle8 ul{
+  list-style-image: url('../../resources/hirexl/tick.png');
+  padding-left: 30px;
+  margin-bottom: 0px;
+}
+
+.Middle8 li{
+  font-size: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+  color:#6D6D6D;
+  padding-bottom: 15px;
+  padding-left: 6px;
+}
+
+.Middle8 img{
+ margin-top: 40px;
+}
+
+.employers a{
+  text-decoration: none;
+  color: #091188;
+}
+
+.employers a:hover{
+  text-decoration: underline;
+}
+
+
+@media(max-width:760px){
+  .text1{
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+ .Middle8{
+   margin-top: 0px;
+   flex-direction: column;
+    justify-content: flex-start;
+    align-content: stretch;  
+ }
+}

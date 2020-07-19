@@ -1,0 +1,43 @@
+
+
+.Navbar{
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  padding: 0px;
+  background-color: #F1F2F6;
+  height: 50px;
+  margin-block-end: 0px;
+  overflow: hidden;
+  width: 100%;
+  flex: 100%;
+  margin-left: 0px;
+}
+
+.Navbar li {
+  float: left;
+}
+
+.Navbar li a {
+  display: block;
+  color: #8F8F8F;
+  text-align: center;
+  padding: 14px 0px;
+  margin-right: 43px;
+  text-decoration: none;
+}
+
+.Navbar li:last-child{
+  float: right;
+  margin-right: 40px;
+  padding-block-end: 0px;
+}
+
+.Navbar li:first-child{
+  margin-left: 95px;
+}
+
+.container{
+  display: flex;
+  width: auto;
+}

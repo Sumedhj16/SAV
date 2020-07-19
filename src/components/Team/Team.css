@@ -1,0 +1,77 @@
+
+.Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    align-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    font-weight: bolder;
+}
+
+
+.Middle2{
+  height: auto;
+  border-radius: 29px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 0px 0px 12px #165EE824;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 80%;
+}
+
+
+.Middle2 div{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.team{
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+#team1{
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 400;
+    color: #091188;
+}
+
+#team2{
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    line-height: 19px;
+    color: #AEAEAE;
+}
+
+@media (max-width:805px){
+  
+.Middle2{
+  height: auto;
+  border-radius: 29px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 0px 0px 12px #165EE824;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 80%;
+  justify-content: center;
+}
+
+
+.Middle2 div{margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+}

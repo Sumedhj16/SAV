@@ -1,0 +1,70 @@
+
+.blog{
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.blog div{
+  display: inline-block;
+  width: 287px;
+  box-shadow: 0px 0px 15pt #165EE821;
+  border-radius: 8px 29px 29px 29px;
+  margin-top: 80px;
+  margin-left: 32px;
+}
+
+.blog div:hover{
+  border-radius: 8pt 29pt 29pt 29pt;
+  box-shadow: 0px 0px 44pt #165EE830;
+  cursor: pointer;
+}
+
+.blog div p{
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+  color: #091188;
+  margin-left: 15px;
+  margin-right: 14px;
+  height: 40px;
+  }
+
+.blog div span{
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+  color: #6D6D6D;
+  margin-bottom: 10px;
+}
+
+#swatisinha{
+   font-weight: bolder;
+   margin-left: 50px;
+   font-size: 18px;
+   color: #B8B8B8;
+}
+
+@media (max-width: 600px) {
+  
+.blog{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog div{
+  display: inline-block;
+  width: 287px;
+  box-shadow: 0px 0px 15pt #165EE821;
+  border-radius: 8px 29px 29px 29px;
+  margin-left: 0px;
+  margin-top: 50px;
+}
+}

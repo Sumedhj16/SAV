@@ -1,0 +1,30 @@
+
+
+.companies{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-bottom: 60px;
+  width: 100%;
+}
+.companies img:first-child{
+  width: auto;
+}
+
+.companies img:last-child{
+  width: auto;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px){
+  .companies img:first-child{
+  width: 80%;
+}
+
+.companies img:last-child{
+  width: 20%;
+  margin-left: 10px;
+}
+
+}
