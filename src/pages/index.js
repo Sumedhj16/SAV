@@ -1,6 +1,5 @@
 import React from "react"
 import './App.css';
-import Navbar from '../components/Navbar/Navbar.js';
 import Header from '../components/Header/Header.js';
 import Head from '../components/Head/Head.js';
 import SearchBar from '../components/SearchBar/SearchBar.js';
@@ -10,17 +9,18 @@ import Talent from '../components/Talent/Talent.js';
 import Work from '../components/Work/Work.js';
 import Companies from '../components/Companies/Companies.js';
 import JobBoard from '../components/JobBoard/JobBoard.js';
-import Clients from '../components/Clients/Clients.js';
 import Blogs from '../components/Blogs/Blogs.js';
 import Hiring from '../components/Hiring/Hiring.js';
 import Footer from '../components/Footer/Footer';
-import Carousel from '../components/Carousel/Carousel'
+import Carousel from '../components/Carousel/Carousel';
+import NavBar from '../components/NavBar/NavBar';
 
 const IndexPage = () => {
   return (
     <div className="App">
+      
       <Header />
-      <Navbar />
+      <NavBar />
       <Head />
       <SearchBar />
       <Team />

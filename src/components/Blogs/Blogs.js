@@ -5,10 +5,10 @@ import blog3 from '../../resources/blog/blog3.png';
 
 import './Blogs.css';
 
-export default class Blog extends React.Component {
+const blog =() => {
 
-    render() {
         return (
+        <div>
             <div className="blog">
                 <div>
                     <img src={blog1} alt="blog1" />
@@ -26,6 +26,11 @@ export default class Blog extends React.Component {
                     <span>8 min read</span><span id="swatisinha">by swati sinha</span>
                 </div>
             </div>
+            <div className="viewButton">
+               <button className="viewAll">View All</button>
+            </div>
+        </div>
         )
-    }
-}
+    };
+
+export default blog;

@@ -3,14 +3,15 @@ import logo from '../../resources/savana/savana.png';
 
 import './Header.css';
 
-export default class Header extends React.Component {
+ const Header = () => {
 
-    render(){
         return(
-            <div className="App">
+            <div className="App1">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p className="Contact">Contact</p>
             </div>
         )
-    }
-} 
+    };
+
+export default Header
+

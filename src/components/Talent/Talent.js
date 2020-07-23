@@ -8,9 +8,8 @@ import operations from '../../resources/choices/cube.png'
 
 import './Talent.css';
 
-export default class Talent extends React.Component {
+const Talent = () => {
 
-    render() {
         return (
             <div className="choices">
                 <div className="choice1">
@@ -24,7 +23,7 @@ export default class Talent extends React.Component {
                         <li> Head of Departments</li>
                         <li>Faculty/ Tutors</li>
                     </ol>
-                    <span id="learnmore">Learn More</span>
+                    <span id="learnmore">Learn More -></span>
                 </div>
                 <div className="choice2">
                     <img src={tech} alt="tech" /><br />
@@ -37,7 +36,7 @@ export default class Talent extends React.Component {
                         <li> Help Desk or Technicians</li>
                         <li> Business Intelligence</li>
                     </ol>
-                    <span id="learnmore">Learn More</span>
+                    <span id="learnmore">Learn More -></span>
                 </div>
                 <div className="choice3">
                     <img src={market} alt="tech" /><br />
@@ -50,7 +49,7 @@ export default class Talent extends React.Component {
                         <li>Marketing communication</li>
                         <li>Internal / External communication</li>
                     </ol>
-                    <span id="learnmore">Learn More</span>
+                    <span id="learnmore">Learn More -></span>
                 </div><br />
                 <div className="choice4">
                     <img src={design} alt="design" /><br />
@@ -63,7 +62,7 @@ export default class Talent extends React.Component {
                         <li>Instructional Designers</li>
                         <li>Merchandising</li>
                     </ol>
-                    <span id="learnmore">Learn More</span>
+                    <span id="learnmore">Learn More -></span>
                 </div>
                 <div className="choice5">
                     <img src={sales} alt="sales" /><br />
@@ -76,7 +75,7 @@ export default class Talent extends React.Component {
                         <li>Sales Training</li>
                         <li>Product training</li>
                     </ol>
-                    <span id="learnmore">Learn More</span>
+                    <span id="learnmore">Learn More -></span>
                 </div>
                 <div className="choice6">
                     <img src={operations} alt="operations" /><br />
@@ -89,10 +88,11 @@ export default class Talent extends React.Component {
                         <li>Accounting and Finance</li>
                         <li>Legal</li>
                     </ol>
-                    <span id="learnmore">Learn More</span>
+                    <span id="learnmore">Learn More -></span>
                 </div>
             </div>
 
         )
-    }
 }
+
+export default Talent;

@@ -1,12 +1,10 @@
 import React from 'react';
-import search from '../../resources/icons/search.png'
 import './SearchBar.css';
 
 
 
 
-export default class Header extends React.Component {
-    render() {
+const SearchBar = () => {
         return (
                 
                 <div className="Middle">
@@ -23,12 +21,14 @@ export default class Header extends React.Component {
                     <div className="Mid2">
                          <span id="head2">Hire Talent</span><br />
                          <button href="#">Request Staff</button><br />
-                         <span>Learn more about our hiring options</span>
+                         <span>Learn more about our hiring options -></span>
                     </div>
                 </div>
         )
-    }
-}
+    
+};
+
+export default SearchBar
 
 
 

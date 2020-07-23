@@ -1,4 +1,4 @@
-.App  {
+.App1  {
   width: 100%;
 }
 
@@ -18,4 +18,11 @@
     margin: 0px;
     color: #8F8F8F;
     opacity: 100%;
+}
+
+
+@media(max-width: 706px){
+  .App1{
+    display: none;
+  }
 }

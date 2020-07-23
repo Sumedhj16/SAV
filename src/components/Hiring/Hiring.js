@@ -4,9 +4,7 @@ import savhr from '../../resources/savana/savhr.png';
 
 import './Hiring.css';
 
-export default class Hiring extends React.Component {
-
-    render() {
+const Hiring=()=> {
         return (
             <div className="last">
                 <p>Let's talk about your next hiring</p>
@@ -15,5 +13,6 @@ export default class Hiring extends React.Component {
                 <button>Get started</button>
             </div>
         )
-    }
-}
+    };
+
+export default Hiring;

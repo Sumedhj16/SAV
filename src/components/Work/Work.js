@@ -5,10 +5,9 @@ import network from '../../resources/work/team.png';
 
 import './Work.css';
 
-export default class Work extends React.Component {
-
-    render() {
-        return (
+const Work = () =>
+{
+       return (
             <div className="Middle5">
                 <div className="Mid5">
                     <img src={profile} alt="profile" /><br />
@@ -30,5 +29,6 @@ export default class Work extends React.Component {
                 </div>
             </div>
         )
-    }
 }
+
+export default Work;

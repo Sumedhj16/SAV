@@ -17,7 +17,7 @@
 }
 
 .text1{
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 @media(max-width:1250px){
@@ -31,32 +31,30 @@
   margin-top: 50px;
   display: inline-block;
   font-size: 28px;
-  font-family: 'Work Sans', sans-serif;
   font-weight: bolder;
   color: #091188;
 }
 
 .Middle8 span:last-child{
   font-size: 16px;
-  font-family: 'Work Sans', sans-serif;
   font-weight: bolder;
   color: #6D6D6D;
   margin-top: 0px;
 }
 .Middle8 ul{
-  list-style-image: url('../../resources/hirexl/tick.png');
+  list-style-image: url('../../resources/icons/tick.svg');
   padding-left: 30px;
   margin-bottom: 0px;
 }
 
 .Middle8 li{
   font-size: 21px;
-  font-family: 'Work Sans', sans-serif;
   font-weight: bolder;
   color:#6D6D6D;
   padding-bottom: 15px;
   padding-left: 6px;
 }
+
 
 .Middle8 img{
  margin-top: 40px;

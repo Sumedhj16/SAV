@@ -3,9 +3,8 @@ import lap from '../../resources/hirexl/lap.png';
 
 import './JobBoard.css';
 
-export default class JobBoard extends React.Component {
+const JobBoard =()=> {
 
-    render() {
         return (
             <div className="Middle8">
                 <div className="text1">
@@ -33,4 +32,5 @@ export default class JobBoard extends React.Component {
             </div>
         )
     }
-}
+
+export default JobBoard;

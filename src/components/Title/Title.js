@@ -2,17 +2,18 @@ import React from 'react';
 
 import './Title.css';
 
-export default class Title extends React.Component {
+const Title = (props) =>{
 
-    render() {
+ 
         return (
             <div className="Middle3">
                 <div>
-                    <span id="big">{this.props.title}</span><br />
-                    <span id="small">{this.props.title}</span>
+                    <span id="big">{props.title}</span><br />
                 </div>
-                <span id="middle">{this.props.subTitle}</span>
+                <span id="small">{props.title}</span>
+                <span id="middle">{props.subTitle}</span>
             </div>
         )
-    }
 }
+
+export default Title;
