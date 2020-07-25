@@ -115,3 +115,19 @@
    list-style: none;
  }
 }
+
+@media (max-width:510px){
+  .choices{text-align: left;
+  justify-content: left;
+  align-items:baseline  !important; 
+}
+.choices div{
+  margin-left: 20px;
+}
+  .choices ol{
+    padding-left: 0px;
+  }
+.choice4{
+  margin-top: 0px;
+}
+}

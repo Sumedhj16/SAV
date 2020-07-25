@@ -3,11 +3,9 @@ import "./NavBar.css";
 import mob from '../../resources/savana/mobsav.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faCross, faTimes } from '@fortawesome/free-solid-svg-icons'
 
-
-class Links extends React.Component {
-    render() {
+const Links = () => {
         return (
             <div>
                 <a href="#" id="subMenu1">Job Seeker</a>
@@ -17,10 +15,9 @@ class Links extends React.Component {
                 <a href="#" id="subMenu5">Contact</a>
             </div>
         );
-    }
 }
 
-export default class Apo extends React.Component {
+export default class NavBar extends React.Component {
     render() {
         return (
             <nav>
@@ -31,9 +28,10 @@ export default class Apo extends React.Component {
                     </div>
                 </div>
 
-                <div className="navNarrow" onClick={this.toggle}>
+                <div className="navNarrow" >
                     <img src={mob} className="mobSav" alt="mobsav" />
-                    <FontAwesomeIcon icon={faBars} color="#6D6D6D" size="2x" className="bars"/>
+                    <FontAwesomeIcon icon={faBars} color="#6D6D6D" size="2x" className="bars" onClick={this.toggle}/>
+                    <FontAwesomeIcon icon={faTimes} size="2x" color="#6D6D6D" className="cross" onClick={this.toggle}/> 
                     <div className="narrowLinks hidden">
                         <Links />
                     </div>
@@ -44,7 +42,12 @@ export default class Apo extends React.Component {
 
     toggle() {
         let narrowLinks = document.querySelector(".narrowLinks");
-        narrowLinks.classList.toggle("hidden");    }
+        narrowLinks.classList.toggle("hidden");
+        let bars = document.querySelector(".bars");
+        bars.classList.toggle("hidden");   
+        let cross = document.querySelector(".cross");
+        cross.classList.toggle("visible")
+    }
 
 }
 

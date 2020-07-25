@@ -4,14 +4,14 @@ import comp2 from '../../resources/companies/comp2.png';
 
 import './Companies.css';
 
-export default class Companies extends React.Component {
+ const Companies = () => {
 
-    render() {
         return (
             <div className="companies">
                 <img src={comp1} alt="company1" />
                 <img src={comp2} alt="company2" />
             </div>            
         )
-    }
 }
+
+export default Companies;

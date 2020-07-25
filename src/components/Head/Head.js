@@ -5,9 +5,8 @@ import img from '../../resources/icons/bg.svg';
 import './Head.css';
 
 
-export default class Head extends React.Component {
+const Head = () => {
 
-    render() {
         return (
             <div className="head">
                 <div className="text">
@@ -22,9 +21,9 @@ export default class Head extends React.Component {
                 </div>
             </div>
         )
-    }
-
 }
+
+export default Head;
 
 
 
