@@ -18,7 +18,6 @@ import NavBar from '../components/NavBar/NavBar';
 const IndexPage = () => {
   return (
     <div className="App">
-      
       <Header />
       <NavBar />
       <Head />
@@ -41,4 +40,4 @@ const IndexPage = () => {
     </div>
   );}
 
-export default IndexPage
+export default IndexPage;

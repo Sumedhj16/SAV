@@ -7,9 +7,8 @@ import linkedin from '../../resources/icons/link.png';
 
 import './Footer.css';
 
-export default class Footer extends React.Component {
+const Footer = () =>{
 
-    render() {
         return (
             <div className="end">
                 <div className="sav">
@@ -41,4 +40,5 @@ export default class Footer extends React.Component {
             </div>
         )
     }
-}
+
+export default Footer;
