@@ -105,11 +105,13 @@
   .choice1, .choice2,.choice6,.choice5,.choice3,
  .choice4{
          padding-left: 0%;
+         padding-right: 5%;
          height: 100%;
  }
  .choices{
      margin-bottom: 40px;
      text-align: center;
+     padding-right: 5%;
  }
  .choices ol{
    list-style: none;

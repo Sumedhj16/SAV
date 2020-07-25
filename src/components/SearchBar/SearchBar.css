@@ -50,17 +50,18 @@
   color: #091188;
 }
 
-
+form{
+  padding-top: 30px;
+}
 .search1{
     margin-left: 35px;
-    height: 40px;
-    margin-top: 30px;
+    height: 50px;
     width: 270px;
     font-size: 16px;
     font-weight: 400;
-    padding-top: 7px;
-    padding-bottom: 8px;
-    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    padding-left: 15.5px;
     border-width: 0px 1px 0px 0px;
     border-color: #6D6D6D;
     border-bottom-left-radius: 15px;
@@ -72,12 +73,12 @@
 }
 
 .search2{
-    height: 40px;
+    height: 50px;
     width: 166px;
     font-size: 16px;
     font-weight: 400;
-    padding-top: 5px;
-    padding-bottom: 6px;
+    padding-top: 16px;
+    padding-bottom: 15px;
     padding-left: 10px;
     border-width: 0px;
     background-image:url(../../resources/icons/location.svg);
@@ -89,7 +90,7 @@
 
 
 .Mid1 button{
-  height:40px;
+  height:50px;
   padding-bottom: 0px;
   border-radius: 0px 15px 15px 0px;
   border-width: 0px;
@@ -201,7 +202,7 @@
 .search1{
     margin-left: 0px;
     width: 50%;
-    padding-right:25px;
+    padding-right:30px;
 }
 
 .search2{
@@ -211,6 +212,10 @@
 
 .Mid1 button{
   width: 10%;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+
 }
 
 #pwdby{

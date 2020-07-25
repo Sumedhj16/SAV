@@ -3,7 +3,7 @@ import "./NavBar.css";
 import mob from '../../resources/savana/mobsav.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faCross, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 
 const Links = () => {
         return (

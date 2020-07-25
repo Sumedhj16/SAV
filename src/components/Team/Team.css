@@ -24,7 +24,6 @@
 }
 
 
-
 .Middle2 div{
   display: flex;
   flex-flow: column wrap;
@@ -37,26 +36,24 @@
   margin-left: 35px;
   margin-top: 25px;
 }
-.middle2Hidden{
-display: none;
-}
+
 
 #team1{
     display: inline-block;
     font-size: 24px;
-    font-size: 400;
+    font-weight: 500;
     color: #091188;
 }
 
 #team2{
     display: inline-block;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 19px;
     color: #AEAEAE;
 }
 
-@media (max-width:805px){
+@media (max-width:1000px){
   
 .Middle2{
   height: auto;
@@ -72,43 +69,12 @@ display: none;
 }
 
 
-.Middle2 div{margin-top: 20px;
+.Middle2 div{
+  margin-top: 20px;
   margin-bottom: 20px;
+
 }
+#team2{}
 
 }
 
-
-@media screen and (max-width: 376px) {  
-  .Middle2{
-    display: none;
-  }
-  
-.middle2Hidden{
-  display: flex;
-width: 90%;
-text-align: center;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-border-radius: 12px;
-border-width: 1px;
-border-color: #AEAEAE;
-border-style: solid;
-}
-.middle2Hidden img{
- border-radius: 12px 12px 0px 0px;
- width: 100%;
-}
-.middle2Hidden span{
-font-size: 21px;
-font-weight: 500;
-color: #091188;}
-.middle2Hidden p{
-  color: #6D6D6D;
-font-size: 16px;
-font-weight: 500;
-margin-top: 10px;
-}
-
-}

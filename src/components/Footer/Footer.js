@@ -1,9 +1,9 @@
 import React from 'react';
 import sav from '../../resources/savana/sav.png';
-import fb from '../../resources/icons/fb.png';
-import twitter from '../../resources/icons/twitter.jpg';
-import insta from '../../resources/icons/insta.jpg';
-import linkedin from '../../resources/icons/link.png';
+import fb from '../../resources/icons/fb.svg';
+import twitter from '../../resources/icons/twitter.svg';
+import insta from '../../resources/icons/insta.svg';
+import linkedin from '../../resources/icons/link.svg';
 
 import './Footer.css';
 

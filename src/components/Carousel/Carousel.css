@@ -10,7 +10,8 @@
 
 
 .card {
-  width: 95% !important;
+  float: right;
+  width: 80% !important;
   padding: 0px;
   position: relative;
   height: 260px;
@@ -21,7 +22,9 @@
   z-index: 1;
   padding-bottom: 20px;
   margin-bottom: 60px;
+  background-color: white;
 }
+
 @font-face {
   font-family: Oldstandard;
   src: url(../../resources/font/Old-Standard-TT-Bold/oldstandardtt/OldStandard-Bold.ttf);
@@ -65,16 +68,37 @@
 @media (max-width: 1200px) {
   .card {
     height: 100%;
+    padding-right: 10px;
+    width: 85% !important;
+    float: right;
   }
 }
 
+
+.slick-dots li button:before{
+  height:16px;
+  width: 16px;
+}
+
 .slick-dots li.slick-active button:before{
- width: 27px;
- margin-right: 15px;
+ width: 28px;
+ height: 16px;
+ margin-right: 16px;
 }
 
 .slick-dots li button:before{
   transition: width 100ms;
    margin-right: 15px;
+}
 
+@media(max-width:480px){
+  .card{
+    float: none;
+      text-align: start;
+
+  }
+  .Carousel{
+      text-align: center;
+
+  }
 }
