@@ -13,7 +13,7 @@ const SearchBar = () => {
                         <form>
                            <input type="text" className="search1" placeholder="Job Title, Skills or Keywords" /> 
                            <input type="text" className="search2" placeholder="City or Zip" />
-                           <button>'</button>
+                           <button>''</button>
                         </form>
                         <p><span id="pwdby">Powered by </span><span id="hirexl">HireXL</span></p>
                         <span id="last">No. 1 Job portal for startups and Edtech</span>

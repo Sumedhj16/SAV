@@ -1,0 +1,117 @@
+
+.headText {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #6D6D6D;
+    margin-top: 1%;
+}
+
+.headTextFirst{
+    max-width: 65%;
+    padding-left: 7%;
+}
+
+.headTextFirst p{
+    display: inline-block;
+    font-size: 16px;
+    color: #AEAEAE;
+    font-weight: 400;
+    padding-right: 40px;
+}
+
+.headTextFirst span{
+    font-size: 40px;
+    color: #091188;
+    padding-right: 30px;
+}
+
+.headTextSecond{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headTextSecond div{
+    min-width: 380px;
+    text-align: center;
+    border-radius: 0px 35px 35px 35px;
+    background-color: #F1F2F6;
+    margin-right: 50px;
+}
+
+
+.headTextSecond span:first-of-type{
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 40px;
+    color: #091188;
+}
+
+.headTextSecond button{
+    font-size: 16px;
+    background-color: #165EE8;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 51.5px 16px 51.5px;
+    border-width: 0px;
+    margin-top: 12px;
+    margin-bottom: 23px;
+}
+
+.headTextSecond hr{
+    width: 38%;
+    display: inline-block;
+    margin: 8px 10px 4px 10px;
+    border: 1px solid #AEAEAE;
+}
+
+.headTextSecond #learningJob{
+    display: inline-block;
+    font-size: 16px;
+    color: #AEAEAE;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.headTextSecond span:last-of-type{
+    color: #091188;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+@media(max-width: 1100px){
+
+    
+.headText {
+    flex-direction: column;
+}
+
+.headTextSecond{
+ width: 100%;
+ justify-content: center;
+}
+
+.headTextFirst{
+    max-width: 100%;
+    padding-right: 5%;
+    margin-bottom: 4%;
+}
+
+.headTextFirst p{
+    padding-right: 0px;
+}
+
+.headTextSecond div{
+    margin-right: 0px;
+}
+}
+
+@media(max-width: 485px){
+.headTextSecond div{
+    min-width: 80%;
+}
+
+}

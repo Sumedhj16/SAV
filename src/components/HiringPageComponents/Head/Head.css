@@ -1,0 +1,60 @@
+.hiringPageHead {
+    display: flex;
+    position: relative;
+    background-image: url(../../../resources/HiringPage/Head.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 440px;
+}
+
+.hiringPageHead p{
+    padding-top: 5%;
+    padding-left: 9%;
+    margin: 0px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+
+@media(min-width:1281px){
+    .hiringPageHead{
+        height: 490px;
+    }
+}
+
+
+@media (min-width: 1490px){
+    .hiringPageHead{
+        height: 530px;
+    }
+}
+
+@media (max-width: 1120px){
+    .hiringPageHead {
+        height: 380px;
+    }
+}
+
+@media (max-width: 970px){
+    .hiringPageHead {
+        height: 310px;
+    }
+}
+
+@media (max-width: 750px){
+    .hiringPageHead {
+        height:250px
+    }
+}
+
+
+@media (max-width: 550px){
+    .hiringPageHead {
+        height: 180px;
+    }
+    .hiringPageHead p{
+        font-size: 30px;
+    }
+}

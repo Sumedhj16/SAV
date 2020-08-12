@@ -1,0 +1,58 @@
+
+.questionContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    text-align: center;
+    width: 94%;
+    border-radius: 0px 35px 35px 35px;
+    background-color: #F1F2F6;
+}
+
+.questionDots{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    background-image: url(../../../resources/icons/bigdots.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-position-y: 110px;
+}
+
+#questionHeading{
+    font-size: 40px;
+    color: #091188;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#questionMail{
+    font-size: 16px;
+    color: #6D6D6D;
+    margin-top: 33px;
+}
+
+.question a{
+    font-size: 21px;
+    color: #165EE8;
+}
+
+.question p{
+    width: 358px;
+    align-self: center;
+    font-size: 21px;
+    color: #165EE8;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+@media (max-width:500px){
+    .question p{
+width: auto;}
+}

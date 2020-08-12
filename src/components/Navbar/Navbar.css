@@ -1,6 +1,5 @@
-
   
-nav {
+#homePage {
 	background-color: white;
 	overflow: hidden;
 	padding: 1em;
@@ -10,13 +9,13 @@ nav {
 	font-size: 18px;
 }
 
-nav	a {
+#homePage	a {
 	color: #8F8F8F;
 	text-align: center;
 	width: 100%;
 }
 
-nav .navWide {
+#homePage .navWide {
 	display: none;
 	margin: 0 auto;
 }
@@ -26,7 +25,7 @@ nav .navWide {
 	margin-top: 5px;
 }
 
-nav .navWide .wideDiv a {
+#homePage .navWide .wideDiv a {
 	text-decoration: none;
 	display: inline-block;
 	padding: 0 2em;
@@ -38,7 +37,7 @@ nav .navWide .wideDiv a {
 	margin-right: 5%;
 }
 
-nav .navNarrow .narrowLinks a {
+#homePage .navNarrow .narrowLinks a {
 	text-decoration: none;
 	display: block;
 	float: center;
@@ -65,18 +64,18 @@ replaced by just the links.*/
 	float: right;
 	margin-right: 50px;
 }
-	nav{
+	#homePage{
 			background-color: #F1F2F6;
 
 	}
 #subMenu5{
 	display: none;
 }
-	nav .navWide {
+	#homePage .navWide {
 		display: block;
 	}
 
-	nav .navNarrow {
+	#homePage .navNarrow {
 		display: none;
 	}
 
@@ -84,19 +83,19 @@ replaced by just the links.*/
 	#subMenu1{
 		margin-left: 45px;
 	}
-    nav{text-align: start;}
-	nav a{width: auto;
+    #homePage{text-align: start;}
+	#homePage a{width: auto;
 	text-align: start;}
 }
 
 @media(max-width: 769px){
-	nav {
+	#homePage {
 		padding-left: 0px;
 	}
 	
 .mobSav{
 	float: left;
-	margin-left: 25px;
+	margin-left: 40px;
 
 	margin-top: 5px;
 }

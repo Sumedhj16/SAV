@@ -1,5 +1,5 @@
 import React from "react"
-import './App.css';
+import './index.css';
 import Header from '../components/Header/Header.js';
 import Head from '../components/Head/Head.js';
 import SearchBar from '../components/SearchBar/SearchBar.js';

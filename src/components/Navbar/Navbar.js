@@ -3,7 +3,7 @@ import "./NavBar.css";
 import mob from '../../resources/savana/mobsav.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faCross, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 
 const Links = () => {
         return (
@@ -20,7 +20,7 @@ const Links = () => {
 export default class NavBar extends React.Component {
     render() {
         return (
-            <nav>
+            <nav id="homePage">
                 
                 <div className="navWide">
                     <div className="wideDiv">

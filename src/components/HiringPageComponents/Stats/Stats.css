@@ -1,0 +1,33 @@
+.statsContainer{
+    justify-content: center;
+    display: flex;
+}
+
+.stats{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F1F5FE;
+    border-radius: 0px 29px 29px;
+    justify-content: space-around;
+}
+
+#number{
+    font-size: 52px;
+    color: #091188;
+}
+
+.stats span{
+    font-size: 16px;
+    color: #6D6D6D;
+    font-weight: 400;
+}
+
+.stats div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 10px;
+}

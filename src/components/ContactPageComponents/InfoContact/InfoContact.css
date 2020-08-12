@@ -1,0 +1,107 @@
+
+.infoContactContainer, .infoContact, .infoContactHeading{
+    display: flex;
+    justify-content: center;
+}
+
+.infoContact{
+    width: 1019px;
+    flex-flow: column wrap;
+    margin: auto 20px;
+}
+
+.infoContactHeading{
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: #1D2159;
+    color: white;
+    border-radius: 0px 29px 0px 0px;
+    width: 100%;
+}
+
+.infoContactHeading p:first-of-type{
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding: 0px 20px;
+}
+
+.infoContactHeading p:last-of-type{
+    margin-bottom: 54px;
+    padding: 0px 20px;
+}
+
+.infoContactDetails {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #F1F2F6;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0px 0px 35px 35px;
+}
+
+
+#info{
+    font-size: 40px;
+    color: #091188;
+    margin-top: 31px;
+}
+
+.infoContactDetails div{
+    margin: 20px 0px 50px;
+}
+
+.infoContactDetails div input{
+    border: 1px solid #DEDEDE;
+    border-radius: 0px 15px 15px;
+    background-color:#FFFFFF;
+    color: #6D6D6D;
+    width: 373px;
+    height: 50px;
+    font-size: 16px;
+    padding: 16px 0px 15px 15px;
+    font-weight: 400;
+}
+
+.infoContactDetails div input:first-of-type{
+    margin-right: 20px;
+}
+
+.infoContactDetails div input{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.infoContactDetails button{
+    border-radius: 15px;
+    width: 211px;
+    background-color: #165EE8;
+    border: 1px solid #165EE8;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    margin-top: 45px;
+}
+
+.infoContactDetails form{
+        margin-bottom: 47px;
+}
+
+.infoContactDetails span:last-of-type{
+    display: inline-block;
+    margin-top: 25px;
+    color: #6D6D6D;
+}
+
+.infoContactDetails a{
+    color: #091188;
+    font-weight: 500;
+}
+
+@media (max-width: 995px){
+ .infoContactDetails div input{
+    margin-top: 30px;
+         width: 80%;
+}
+}
