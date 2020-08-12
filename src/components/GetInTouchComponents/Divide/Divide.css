@@ -1,0 +1,68 @@
+
+.divideContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.divide1, .divide2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.divide2{
+    border-left: 1px solid #6D6D6D;
+}
+
+#headingDivide{
+    font-size: 40px;
+    color: #091188;
+    font-weight: 500;
+}
+
+#subHeading{
+    font-size: 16px;
+    color: #6D6D6D;
+    margin-top: 30px;
+}
+
+.divideContainer button{
+    align-self: center;
+    width: 211px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 25px;
+    border-width: 0px;
+    background-color: #165EE8;
+    color: white;
+    margin-top: 17px;
+}
+
+.divide1 button:last-of-type, .divide2 button:last-of-type{
+    margin-bottom: 20px;
+}
+
+@media (max-width:600px){
+ 
+.divideContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}   
+
+
+.divide2{
+    border-top: 1px solid #6D6D6D;
+    border-left: 0px;
+}
+
+.divide1, .divide2{
+    align-self: center;
+    width: 80%;
+}
+
+}

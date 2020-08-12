@@ -20,7 +20,7 @@ const Links = () => {
 export default class NavBar extends React.Component {
     render() {
         return (
-            <nav>
+            <nav id="homePage">
                 
                 <div className="navWide">
                     <div className="wideDiv">

@@ -1,0 +1,58 @@
+
+.hireMidContainer{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(../../../resources/icons/bigdots.svg);
+    background-repeat: no-repeat;
+    height: 199px;
+    padding-bottom: 60px;
+    background-position-y: 36px;
+    background-position: 91%;
+}
+
+.hireMid {
+    border-radius: 0px 35px 35px 35px;
+    display: flex;
+    border: 1px solid #AEAEAE;
+    width: 1007px;
+    background-color: white;
+    margin: 0px 20px;
+}
+
+
+.hireMid div{
+    width: 100%;
+    text-align: start;
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-right: 20px;
+}
+
+.hireMid span{
+    font-size: 21px;
+    font-weight: 400;
+    color: #091188;
+}
+
+.hireMid p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #AEAEAE;
+}
+
+@media(max-width: 730px){
+    .hireMid {
+        height: 100%;
+    }
+    .hireMidContainer{
+        height: auto;
+    }
+    .hireMid div{
+        padding-left: 20px;
+    }
+    .hireMid img{
+        width: 40%;
+}
+
+}
