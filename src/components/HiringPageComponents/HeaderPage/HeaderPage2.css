@@ -1,0 +1,63 @@
+.App2  {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.App-logo2{    
+    align-self: center;
+    width: 55px;
+    margin-left: 7%;
+    height: 55px;
+}
+.Contact2{
+    width: 90px;
+    font-size: 16px;
+    margin: 0px;
+    color: #8F8F8F;
+    opacity: 100%;
+}
+
+.headerMid {
+    align-self: center;
+}
+
+.headerMid a{
+    padding: 0px 40px;
+    font-size: 16px;
+    color: #8F8F8F;
+}
+
+.headerMid a:last-of-type{
+    padding-right: 0px;
+}
+
+ .headerEnd a{
+    padding-right: 40px;
+    font-size: 16px;
+    color: #8F8F8F;
+ }
+
+ .headerEnd button{
+     margin-right: 104px;
+     border-radius: 23px;
+     font-weight: 600;
+     width: 133px;
+     height: 40px;
+     border: 1px solid #D9D9D9;
+     color: #165EE8;
+     background-color: white;
+ }
+
+.headerEnd{
+    align-self: center;
+    justify-self: flex-end;
+}
+
+@media(max-width: 1182px){
+  .App2{
+    display: none;
+  }
+}
