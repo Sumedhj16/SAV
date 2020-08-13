@@ -5,13 +5,13 @@ import LeftText from '../components/AboutPageComponents/LeftText/LeftText'
 import RightText from '../components/AboutPageComponents/RightText/RightText'
 import Footer from '../components/Footer/Footer';
 import NavBarPage from '../components/HiringPageComponents/NavBar/NavBarPage'
-import HeaderPage from '../components/HiringPageComponents/HeaderPage/HeaderPage';
+import HeaderPage2 from '../components/HiringPageComponents/HeaderPage/HeaderPage2';
 
 
 export default function HiringPage() {
     return (
         <div>
-            <HeaderPage />
+            <HeaderPage2 />
             <NavBarPage />
             <Head />
             <Title title="ABOUT" subTitle="About Us" />

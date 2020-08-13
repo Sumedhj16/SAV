@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBarPage.css";
-import mob from '../../../resources/savana/mobsav.png';
+import mob from '../../../resources/savana/savana.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'

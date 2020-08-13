@@ -4,13 +4,13 @@ import Divide from "../components/GetInTouchComponents/Divide/Divide";
 import Questions from "../components/GetInTouchComponents/Questions/Questions";
 import Footer from '../components/Footer/Footer';
 import NavBarPage from '../components/HiringPageComponents/NavBar/NavBarPage'
-import HeaderPage from '../components/HiringPageComponents/HeaderPage/HeaderPage';
+import HeaderPage2 from '../components/HiringPageComponents/HeaderPage/HeaderPage2';
 
 
 export default function GetInTouch() {
     return(
         <div>
-            <HeaderPage />
+            <HeaderPage2 />
             <NavBarPage />
             <Title title="GET IN TOUCH" subTitle="Contact Us" />
             <Divide />

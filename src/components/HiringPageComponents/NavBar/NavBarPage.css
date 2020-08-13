@@ -59,7 +59,6 @@ nav .navWidePages {
 .mobSavPages{
 	float: left;
 	margin-left: 0px;
-	margin-top: 5px;
 }
 
 nav .navWidePages .wideDivPages a {
@@ -97,17 +96,17 @@ nav .navNarrowPages .narrowLinksPages a {
 /*Adjust breakpoint as desired to select when the "hamburger" menu is
 replaced by just the links.*/
 @media (min-width: 1182px) {
-	#subMenuPages4{
+	#subMenuPages4
+	{
 	float: right;
 	margin-right: 50px;
-}
+    }
 	nav{
-			background-color: #F1F2F6;
-
+		background-color: #F1F2F6;
 	}
-#subMenuPages5{
-	display: none;
-}
+    #subMenuPages5{
+		display: none;
+    }
 	nav .navWidePages {
 		display: block;
 	}
@@ -120,9 +119,13 @@ replaced by just the links.*/
 	#subMenuPages1{
 		margin-left: 45px;
 	}
-    nav{text-align: start;}
-	nav a{width: auto;
-	text-align: start;}
+    nav{
+		text-align: start;
+	}
+	nav a{
+		width: auto;
+		text-align: start;
+	}
 }
 
 @media(max-width: 1182px){
@@ -133,8 +136,6 @@ replaced by just the links.*/
 .mobSavPages{
 	float: left;
 	margin-left: 40px;
-
-	margin-top: 5px;
 }
 
 .narrowLinksPages div:first-of-type{
@@ -176,12 +177,12 @@ replaced by just the links.*/
 
 @media(max-width: 426px){
 	.mobSavPages{
-		margin-left: 16px;
+		margin-left: 6%;
 	}
 }
 
 @media(min-width: 430px){
 	.mobSavPages{
-	margin-left: 7%;
+	margin-left: 6%;
 	}
 }

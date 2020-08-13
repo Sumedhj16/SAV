@@ -4,11 +4,13 @@ import InfoContact from '../components/ContactPageComponents/InfoContact/InfoCon
 import Hiring from '../components/Hiring/Hiring.js';
 import Footer from '../components/Footer/Footer';
 import NavBarPage from '../components/HiringPageComponents/NavBar/NavBarPage'
+import HeaderPage2 from '../components/HiringPageComponents/HeaderPage/HeaderPage2';
 
 
 export default function Contact() {
     return (
         <div>
+            <HeaderPage2 />
             <NavBarPage />
             <Title title="GET IN TOUCH" subTitle="Contact Us" />
             <InfoContact />
@@ -17,3 +19,4 @@ export default function Contact() {
         </div>
     )
 }
+
